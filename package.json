@@ -1,6 +1,6 @@
 {
   "name": "@trieb.work/strapi-plugin-location",
-  "version": "1.2.12",
+  "version": "1.2.13",
   "description": "This plugin allows users to create location inputs and store latitude and longitude values as geometry types in a PostGIS database. It also provides functionality to filter items based on their location.",
   "keywords": [
     "strapi",
@@ -34,10 +34,12 @@
     "@strapi/helper-plugin": "^4.20.5",
     "@strapi/icons": "^1.16.0",
     "leaflet": "^1.9.4",
+    "lodash": "^4.17.21",
     "prop-types": "^15.7.2",
     "react-leaflet": "^4.2.1"
   },
   "devDependencies": {
+    "@strapi/database": "^4.24.3",
     "@strapi/strapi": "^4.20.5",
     "@strapi/typescript-utils": "^4.17.0",
     "@types/leaflet": "^1.9.8",
