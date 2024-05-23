@@ -10,7 +10,7 @@ dependencies:
     version: 1.18.0(@babel/runtime@7.24.5)(@codemirror/autocomplete@6.16.0)(@codemirror/language@6.10.1)(@codemirror/lint@6.8.0)(@codemirror/search@6.5.6)(@codemirror/state@6.4.1)(@codemirror/theme-one-dark@6.1.2)(@codemirror/view@6.26.3)(@strapi/icons@1.18.0)(@types/react-dom@18.3.0)(@types/react@18.3.2)(codemirror@6.0.1)(react-dom@18.3.1)(react-router-dom@5.3.4)(react@18.3.1)(styled-components@5.3.11)
   '@strapi/helper-plugin':
     specifier: ^4.20.5
-    version: 4.24.3(@strapi/design-system@1.18.0)(@strapi/icons@1.18.0)(@types/react@18.3.2)(react-dom@18.3.1)(react-router-dom@5.3.4)(react@18.3.1)(styled-components@5.3.11)(typescript@5.3.3)
+    version: 4.24.3(@strapi/design-system@1.18.0)(@strapi/icons@1.18.0)(@types/react@18.3.2)(react-dom@18.3.1)(react-router-dom@5.3.4)(react@18.3.1)(styled-components@5.3.11)(typescript@5.4.5)
   '@strapi/icons':
     specifier: ^1.16.0
     version: 1.18.0(react-dom@18.3.1)(react@18.3.1)
@@ -71,8 +71,8 @@ devDependencies:
     specifier: ^5.3.11
     version: 5.3.11(@babel/core@7.24.5)(react-dom@18.3.1)(react-is@18.3.1)(react@18.3.1)
   typescript:
-    specifier: 5.3.3
-    version: 5.3.3
+    specifier: 5.4.5
+    version: 5.4.5
 
 packages:
 
@@ -964,7 +964,7 @@ packages:
       typescript: 5.2.2
     dev: true
 
-  /@formatjs/intl@2.7.1(typescript@5.3.3):
+  /@formatjs/intl@2.7.1(typescript@5.4.5):
     resolution: {integrity: sha512-se6vxidsN3PCmzqTsDd3YDT4IX9ZySPy39LYhF7x2ssNvlGMOuW3umkrIhKkXB7ZskqsJGY53LVCdiHsSwhGng==}
     peerDependencies:
       typescript: ^4.7 || 5
@@ -979,7 +979,7 @@ packages:
       '@formatjs/intl-listformat': 7.2.1
       intl-messageformat: 10.3.4
       tslib: 2.6.2
-      typescript: 5.3.3
+      typescript: 5.4.5
     dev: false
 
   /@internationalized/date@3.5.4:
@@ -2476,7 +2476,7 @@ packages:
       - typescript
     dev: true
 
-  /@strapi/helper-plugin@4.24.3(@strapi/design-system@1.18.0)(@strapi/icons@1.18.0)(@types/react@18.3.2)(react-dom@18.3.1)(react-router-dom@5.3.4)(react@18.3.1)(styled-components@5.3.11)(typescript@5.3.3):
+  /@strapi/helper-plugin@4.24.3(@strapi/design-system@1.18.0)(@strapi/icons@1.18.0)(@types/react@18.3.2)(react-dom@18.3.1)(react-router-dom@5.3.4)(react@18.3.1)(styled-components@5.3.11)(typescript@5.4.5):
     resolution: {integrity: sha512-5y/ro2n15IJrraDS0TLZQMS3ApcNLU2C16nOtIefSQ5gxr2kIYe5X1tn0eTXi9mnR7BEXZ49hHTC1O/k7s7ZXQ==}
     engines: {node: '>=18.0.0 <=20.x.x', npm: '>=6.0.0'}
     peerDependencies:
@@ -2498,7 +2498,7 @@ packages:
       react: 18.3.1
       react-dom: 18.3.1(react@18.3.1)
       react-helmet: 6.1.0(react@18.3.1)
-      react-intl: 6.4.1(react@18.3.1)(typescript@5.3.3)
+      react-intl: 6.4.1(react@18.3.1)(typescript@5.4.5)
       react-query: 3.39.3(react-dom@18.3.1)(react@18.3.1)
       react-router-dom: 5.3.4(react@18.3.1)
       react-select: 5.7.0(@types/react@18.3.2)(react-dom@18.3.1)(react@18.3.1)
@@ -8445,7 +8445,7 @@ packages:
       typescript: 5.2.2
     dev: true
 
-  /react-intl@6.4.1(react@18.3.1)(typescript@5.3.3):
+  /react-intl@6.4.1(react@18.3.1)(typescript@5.4.5):
     resolution: {integrity: sha512-/aT5595AEMZ+Pjmt8W2R5/ZkYJmyyd6jTzHzqhJ1LnfeG36+N5huBtykxYhHqLc1BrIRQ1fTX1orYC0Ej5ojtg==}
     peerDependencies:
       react: ^16.6.0 || 17 || 18
@@ -8456,7 +8456,7 @@ packages:
     dependencies:
       '@formatjs/ecma402-abstract': 1.14.3
       '@formatjs/icu-messageformat-parser': 2.3.1
-      '@formatjs/intl': 2.7.1(typescript@5.3.3)
+      '@formatjs/intl': 2.7.1(typescript@5.4.5)
       '@formatjs/intl-displaynames': 6.3.1
       '@formatjs/intl-listformat': 7.2.1
       '@types/hoist-non-react-statics': 3.3.5
@@ -8465,7 +8465,7 @@ packages:
       intl-messageformat: 10.3.4
       react: 18.3.1
       tslib: 2.6.2
-      typescript: 5.3.3
+      typescript: 5.4.5
     dev: false
 
   /react-is@16.13.1:
@@ -9913,8 +9913,8 @@ packages:
     hasBin: true
     dev: true
 
-  /typescript@5.3.3:
-    resolution: {integrity: sha512-pXWcraxM0uxAS+tN0AG/BF2TyqmHO014Z070UsJ+pFvYuRSq8KH8DmWpnbXe0pEPDHXZV3FcAbJkijJ5oNEnWw==}
+  /typescript@5.4.5:
+    resolution: {integrity: sha512-vcI4UpRgg81oIRUFwR0WSIHKt11nJ7SAVlYNIu+QpqeyXP+gpQJy/Z4+F0aGxSE4MqwjyXvW/TzgkLAx2AGHwQ==}
     engines: {node: '>=14.17'}
     hasBin: true
 
