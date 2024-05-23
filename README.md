@@ -21,10 +21,10 @@ This plugin requires a PostgreSQL database with the PostGIS extension enabled (c
 1. Install the package with your preferred package manager using one of the commands bellow:
 
 ```
-npm i @notum-cz/strapi-plugin-location
+npm i @trieb.work/strapi-plugin-location
 ```
 ```
-yarn add @notum-cz/strapi-plugin-location
+yarn add @trieb.work/strapi-plugin-location
 ```
 2. Create or modify file `config/plugins.js` and include the following code snippet:
 
