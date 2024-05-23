@@ -27,7 +27,7 @@
     "clean": "rm -rf build",
     "develop": "NODE_ENV=development tsc -p tsconfig.server.json -w",
     "prepublish:latest": "npm run clean && npm run build",
-    "publish:latest": "cd build && npm publish --tag latest"
+    "publish:latest": "cd build && pnpm publish --tag latest --access public"
   },
   "dependencies": {
     "@strapi/design-system": "^1.16.0",
