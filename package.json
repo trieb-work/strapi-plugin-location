@@ -31,7 +31,7 @@
   },
   "dependencies": {
     "@strapi/design-system": "^1.16.0",
-    "@strapi/helper-plugin": "^4.20.5",
+    "@strapi/helper-plugin": "^4.24.4",
     "@strapi/icons": "^1.16.0",
     "knex": "^3.1.0",
     "leaflet": "^1.9.4",
