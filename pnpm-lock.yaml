@@ -9,8 +9,8 @@ dependencies:
     specifier: ^1.16.0
     version: 1.18.0(@babel/runtime@7.24.5)(@codemirror/autocomplete@6.16.0)(@codemirror/language@6.10.1)(@codemirror/lint@6.8.0)(@codemirror/search@6.5.6)(@codemirror/state@6.4.1)(@codemirror/theme-one-dark@6.1.2)(@codemirror/view@6.26.3)(@strapi/icons@1.18.0)(@types/react-dom@18.3.0)(@types/react@18.3.2)(codemirror@6.0.1)(react-dom@18.3.1)(react-router-dom@5.3.4)(react@18.3.1)(styled-components@5.3.11)
   '@strapi/helper-plugin':
-    specifier: ^4.20.5
-    version: 4.24.3(@strapi/design-system@1.18.0)(@strapi/icons@1.18.0)(@types/react@18.3.2)(react-dom@18.3.1)(react-router-dom@5.3.4)(react@18.3.1)(styled-components@5.3.11)(typescript@5.3.3)
+    specifier: ^4.24.4
+    version: 4.24.4(@strapi/design-system@1.18.0)(@strapi/icons@1.18.0)(@types/react@18.3.2)(react-dom@18.3.1)(react-router-dom@5.3.4)(react@18.3.1)(styled-components@5.3.11)(typescript@5.3.3)
   '@strapi/icons':
     specifier: ^1.16.0
     version: 1.18.0(react-dom@18.3.1)(react@18.3.1)
@@ -2476,8 +2476,8 @@ packages:
       - typescript
     dev: true
 
-  /@strapi/helper-plugin@4.24.3(@strapi/design-system@1.18.0)(@strapi/icons@1.18.0)(@types/react@18.3.2)(react-dom@18.3.1)(react-router-dom@5.3.4)(react@18.3.1)(styled-components@5.3.11)(typescript@5.3.3):
-    resolution: {integrity: sha512-5y/ro2n15IJrraDS0TLZQMS3ApcNLU2C16nOtIefSQ5gxr2kIYe5X1tn0eTXi9mnR7BEXZ49hHTC1O/k7s7ZXQ==}
+  /@strapi/helper-plugin@4.24.4(@strapi/design-system@1.18.0)(@strapi/icons@1.18.0)(@types/react@18.3.2)(react-dom@18.3.1)(react-router-dom@5.3.4)(react@18.3.1)(styled-components@5.3.11)(typescript@5.3.3):
+    resolution: {integrity: sha512-U9nGyHmT/OHDqrhrLVgg3YcK2Kc9AW/LyX/bQld1EtqAzIGXsHVXH3/0PYsQa4keyX/zhKuEPYnN40CPf8k41A==}
     engines: {node: '>=18.0.0 <=20.x.x', npm: '>=6.0.0'}
     peerDependencies:
       '@strapi/design-system': 1.18.0
@@ -8946,6 +8946,7 @@ packages:
 
   /rimraf@2.7.1:
     resolution: {integrity: sha512-uWjbaKIK3T1OSVptzX7Nl6PvQ3qAGtKEtVRjRuazjfL3Bx5eI409VZSqgND+4UNnmzLVdPj9FqFJNPqBZFve4w==}
+    deprecated: Rimraf versions prior to v4 are no longer supported
     hasBin: true
     dependencies:
       glob: 7.2.3
@@ -8953,6 +8954,7 @@ packages:
 
   /rimraf@3.0.2:
     resolution: {integrity: sha512-JZkJMZkAGFFPP2YqXZXPbMlMBgsxzE8ILs4lMIX/2o0L9UBw9O/Y3o6wFw/i9YLapcUJWwqbi3kdxIPdC62TIA==}
+    deprecated: Rimraf versions prior to v4 are no longer supported
     hasBin: true
     dependencies:
       glob: 7.2.3
@@ -9277,7 +9279,7 @@ packages:
   /slate@0.94.1:
     resolution: {integrity: sha512-GH/yizXr1ceBoZ9P9uebIaHe3dC/g6Plpf9nlUwnvoyf6V1UOYrRwkabtOCd3ZfIGxomY4P7lfgLr7FPH8/BKA==}
     dependencies:
-      immer: 9.0.19
+      immer: 9.0.21
       is-plain-object: 5.0.0
       tiny-warning: 1.0.3
     dev: true
