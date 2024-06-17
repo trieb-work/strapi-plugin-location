@@ -38,8 +38,8 @@ devDependencies:
     specifier: ^4.20.5
     version: 4.24.3(@babel/runtime@7.24.5)(@codemirror/autocomplete@6.16.0)(@codemirror/language@6.10.1)(@codemirror/lint@6.8.0)(@codemirror/search@6.5.6)(@codemirror/state@6.4.1)(@codemirror/theme-one-dark@6.1.2)(@codemirror/view@6.26.3)(@types/react-dom@18.3.0)(@types/react@18.3.2)(codemirror@6.0.1)(react-dom@18.3.1)(react-router-dom@5.3.4)(react@18.3.1)(redux@4.2.1)(styled-components@5.3.11)
   '@strapi/typescript-utils':
-    specifier: ^4.17.0
-    version: 4.24.3
+    specifier: ^4.25.0
+    version: 4.25.0
   '@types/leaflet':
     specifier: ^1.9.8
     version: 1.9.12
@@ -2932,6 +2932,18 @@ packages:
 
   /@strapi/typescript-utils@4.24.3:
     resolution: {integrity: sha512-eyN7FY21Tii2Eby82BDANa8U7ZDmX2QtWbzI8LziRKFaV5GLrjmnJXO3rp6FLjT0OwjDfWLfocE4E5Fo2vMUcw==}
+    engines: {node: '>=18.0.0 <=20.x.x', npm: '>=6.0.0'}
+    dependencies:
+      chalk: 4.1.2
+      cli-table3: 0.6.2
+      fs-extra: 10.0.0
+      lodash: 4.17.21
+      prettier: 2.8.4
+      typescript: 5.2.2
+    dev: true
+
+  /@strapi/typescript-utils@4.25.0:
+    resolution: {integrity: sha512-5PrGGDIcpIUpgTFi9/d7mIBk+2aJQ1sqrOeQetUs6IU9jEa9qfyhCQ+xXWHlqea/RUKe9/8uv1HEkm+cDsbzXQ==}
     engines: {node: '>=18.0.0 <=20.x.x', npm: '>=6.0.0'}
     dependencies:
       chalk: 4.1.2
